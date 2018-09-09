@@ -16,4 +16,5 @@ function insertionSort(array){
   while (!array.length = 0) {
     sorted.push(findMinAndRemove(array))
   }
+  return sorted
 }
