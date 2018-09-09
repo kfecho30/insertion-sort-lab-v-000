@@ -6,11 +6,9 @@ function findMinAndRemove(array){
       min = array[i]
       minI = i
     }
-    array.splice(minI, 1)
-    return min
   }
-
-
+  array.splice(minI, 1)
+  return min
 }
 
 function insertionSort(array){
